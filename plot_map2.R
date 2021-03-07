@@ -23,7 +23,7 @@ plot_usmap(
   data = state_data,
   values = "trending",
   exclude = c("02", "15", "60", "66", "69", "72", "78"), 
-  color = "blue") +
-  scale_fill_continuous(low = "white", high = "blue", name = "Test", label = scales::comma) +
+  color = "black") +
+  scale_fill_continuous(low = "white", high = "red") +
   labs(title = "COVID") +
   theme(legend.position = "right")
